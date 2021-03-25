@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/6a57e8346e.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Day1</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <span>
+        <img src="./images/avatar-transparent.png" id="profile-pic" alt="Photo not found">
+      </span>
+      <span id="header-right-span" >
+        <span style="font-size: 200%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><b>Mohamed Abd El.Hamid</b></span>
+        <br>
+        <span style="font-size: 170%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Software Developer</span>
+        <br><br>
+        <time datetime="1995-08-01">
+        <span style="font-size: 170%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">01/08/1995 </span>
+        </time>
+        <br><br>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat voluptas exercitationem eos, vero ea fuga amet, <br> sit repellat culpa cupiditate aliquid harum dolor in, porro deserunt esse nemo enim magnam!</p>
+      </span>
+    </header>
+
+    <!-- Right Side -->
+    <aside id="right-side">
+      
+      <div style="width: 70%; height: 6%; background-color: orange;">
+        <p style="font-size: 200%; margin-left: 10%; color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Achievements</p>
+        <br><br>
+        <div style="margin-left: 10%;">
+          <p style="font-size: 150%;"><b>2010 Lorem Project</b></p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus consectetur officia, cumque accusamus ut fugit? Eligendi praesentium quam.</p>
+
+          <br><br>
+          <p style="font-size: 150%;"><b>2012 Lorem2 Project</b></p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus consectetur officia, cumque accusamus ut fugit.</p>
+
+          <br>
+          <p style="font-size: 150%;"><b>2015 Lorem3 Project</b></p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus consectetur officia.</p>
+        </div>
+      </div>
+        
+      <div style="width: 70%; height: 6%; margin-top: 55%; background-color: orange;">
+        <p style="font-size: 200%; margin-left: 10%; color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Education</p>
+        <br><br>
+        <div style="margin-left: 10%;">
+          <p style="font-size: 150%;"><b>2000 - 2006 ABC School</b></p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus consectetur officia, cumque accusamus ut fugit? Eligendi praesentium quam.</p>
+
+          <br><br>
+          <p style="font-size: 150%;"><b>2007 - 2010 XYZ School</b></p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus consectetur officia, cumque accusamus ut fugit.</p>
+
+          <br>
+          <p style="font-size: 150%;"><b>2011 - 2013 ABC School</b></p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus consectetur officia.</p>
+        </div>
+      </div>
+
+      <div style="width: 70%; height: 6%; margin-top: 55%; background-color: orange;">
+        <p style="font-size: 200%; margin-left: 10%; color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Work Experience</p>
+        <br><br>
+        <div style="margin-left: 10%;">
+          <p style="font-size: 150%;"><b>2014 - 2017 ABC Company</b></p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus consectetur officia, cumque accusamus ut fugit? Eligendi praesentium quam.</p>
+
+          <br><br>
+          <p style="font-size: 150%;"><b>2018 - 2020 XYZ company</b></p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus consectetur officia, cumque accusamus ut fugit.</p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Left Side -->
+    <aside id="left-side">
+      <div id="contact-info" style="height: 40%;">
+        <audio id="notification" src="./notification.mp3"></audio>
+        <p style="font-size: 200%; margin-left: 30%; height: auto; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Contact</p>
+        <br><br>
+          <div style="font-size: 140%; margin-left: 20%; height: 200%;">
+            <p style="height: 10%;"><i class="fas fa-home" style="color: orange;"></i>&nbsp;&nbsp; Lorem Address amet consectetur adipisicing elit.</p>
+            <p style="height: 10%;"><i class="fas fa-mobile-alt" style="color: orange; height: auto;"></i>&nbsp;&nbsp; 01228802927</p>
+            <p style="height: 10%;"><i class="fas fa-envelope" style="color: orange; height: auto;"></i>&nbsp;&nbsp; Moh_helwa@hotmail.com</p>
+            <p style="height: 10%;"><i class="fas fa-link" style="color: orange; height: auto;"></i>&nbsp;&nbsp; <a href="https://www.linkedin.com/in/mohamedabohelwa/" target="_blank">www.linkedin.com/in/mohamedabohelwa</a></p>
+          </div>      
+
+          <script>
+            document.getElementById("contact-info").onmouseover = function (){
+              document.getElementById("notification").play();
+            }
+            document.getElementById("contact-info").onmouseout = function (){
+              document.getElementById("notification").pause();
+            }
+          </script>
+      </div>
+
+      <br><br><br><br><br>
+      
+      <div style="height: 30%; margin-left: 10%;">
+        <p style="font-size: 200%; margin-left: 22%; height: auto; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Languages</p>
+        <div style="margin-left: 10%; font-size: 150%;">
+          <br>
+          Arabic 
+          <br>
+          <meter low="7" high="9" optimum="6" max="10" value="10" style="height: 25%; width: 70%;"></meter><br>
+          English 
+          <br>
+          <meter low="7" high="9" optimum="6" max="10" value="8" style="height: 25%; width: 70%;"></meter><br>
+          French 
+          <br>
+          <meter low="7" high="9" optimum="6" max="10" value="4" style="height: 25%; width: 70%;"></meter>
+        </div>
+      </div>
+
+      <br><br><br><br><br><br>
+      <br><br><br><br><br>
+
+      <div style="align-items: center; height: 30%; justify-content: center;  position: relative;">
+        <p style="font-size: 200%; margin-left: 30%; height: auto; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Skills</p>
+        <br>
+        <div style="margin-left: 15%;">
+            <progress-ring stroke="12" colour="#EFEFEF" radius="60" progress="100"></progress-ring>
+            <div style="height: 18%; position: absolute; top: 27.2%;">
+              <progress-ring stroke="12" colour="orange" radius="60" progress="85"></progress-ring>
+            </div>
+            <div style="font-size: 150%; height: 4%; position: absolute; top: 50%; left: 21.5%;"><b>Ai</b></div>
+            
+            <progress-ring stroke="12" colour="#EFEFEF" radius="60" progress="100"></progress-ring>
+            <div style="height: 18%; position: absolute; top: 27.2%; left: 32.3%;">
+              <progress-ring stroke="12" colour="aqua" radius="60" progress="65"></progress-ring>          
+            </div>
+            <div style="font-size: 150%; height: 4%; position: absolute; top: 50%; left: 38.75%;"><b>Ps</b></div>
+          
+            <progress-ring stroke="12" colour="#EFEFEF" radius="60" progress="100"></progress-ring>
+            <div style="height: 18%; position: absolute; top: 27.2%; left: 49.6%;">
+              <progress-ring stroke="12" colour="red" radius="60" progress="50"></progress-ring>
+            </div>
+            <div style="font-size: 150%; height: 4%; position: absolute; top: 50%; left: 56.1%;"><b>Ae</b></div>
+          
+            <progress-ring stroke="12" colour="#EFEFEF" radius="60" progress="100"></progress-ring>
+            <div style="height: 18%; position: absolute; top: 27.2%; left: 66.8%;">
+              <progress-ring stroke="12" colour="orange" radius="60" progress="25"></progress-ring>          
+            </div>
+            <div style="font-size: 150%; height: 4%; position: absolute; top: 50%; left: 72%;"><b>CSS</b></div>
+        </div>
+
+        <script>
+          window.customElements.define('progress-ring', ProgressRing);
+        </script>
+  
+      </div>
+
+      <div style="height: 0%; align-items: center; justify-content: center;">
+        <br><br>
+        <p style="font-size: 200%; margin-left: 30%; height: auto; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Online Info.</p>
+        <br><br><br>
+        <div style="font-size: 140%; margin-left: 20%; height: 200%;">
+          <span style="height: 10%;"><i class="fab fa-facebook" style="font-size: 200%; color: #4267B2;"></i>&nbsp;&nbsp;<a href="https://www.facebook.com" target="_blank">/facebookUrl</a></span>
+          <span style="height: 10%; margin-left: 10%;"><i class="fab fa-google-plus" style="font-size: 200%; color: #db4a39;"></i>&nbsp;&nbsp;<a href="https://www.google.com" target="_blank">/googlePlusUrl</a></span>
+        </div>      
+      </div>
+    </aside>
+    <!-- Empty div to show the footer -->
+    <div style="clear: both; height: 0;"></div>
+
+    <!-- Footer -->
+    <footer>      
+      <span class="footer-span" style="background-color: red;"></span>
+      <span class="footer-span" style="background-color: orange;"></span>
+      <span class="footer-span" style="background-color: aqua;"></span>
+    </footer>
+  </body>
+</html>

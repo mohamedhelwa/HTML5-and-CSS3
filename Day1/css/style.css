@@ -1,0 +1,51 @@
+* {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 40%;
+  width: 100%;
+  background-color: orange;
+  color: white;
+}
+#profile-pic {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  height: 30%;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+#header-right-span {
+  position: absolute;
+  top: 12%;
+  left: 40%;
+}
+#right-side {
+  float: right;
+  /* border: 5px solid blue; */
+  /* height: 120%; */
+  width: 50%;
+  margin-top: 2.5%;
+}
+#left-side {
+  float: left;
+  /* border: 1px solid black; */
+  /* height: 120%; */
+  width: 50%;
+  margin-top: 2.5%;
+}
+footer {
+  height: 5%;
+  width: 100%;
+  margin-top: 2.5%;
+}
+.footer-span {
+  float: left;
+  height: 100%;
+  width: 33.33%;
+  position: relative;
+  top: 445px;
+}

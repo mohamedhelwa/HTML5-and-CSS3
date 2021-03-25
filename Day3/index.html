@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Aref+Ruqaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Day 3</title>
+  </head>
+
+  <body>
+    <!-- Question 1 -->
+    <div class="container">
+      <h1>Question 1: </h1>
+      <p class="tip">*Navigation bar with rounded corners & font awesome icons:</p>
+      <nav>
+          <ul style="list-style-type: none;">
+              <li style="border-radius: 7px 0px 0px 7px;"><a href="#"><i class="fas fa-home"></i></a></li>
+              <li><a href="#"><i class="fas fa-search"></i></a></li>
+              <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+              <li><a href="#"><i class="fas fa-globe-africa"></i></a></li>
+              <li style="border-radius: 0px 7px 7px 0px;"><a href="#"><i class="fas fa-trash-alt"></i></a></li>
+          </ul>
+      </nav>
+    </div>
+
+    <hr>
+
+    <!-- Question 2 -->
+    <div class="container">
+        <h1>Question 2: </h1>
+
+        <p class="tip">*Custom font English paragraph 1:</p>
+        <p class="custom-font">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi saepe odio commodi eaque officia quod, porro autem aspernatur incidunt? Doloribus odit facere fugit quae consequuntur eos veniam alias necessitatibus quasi.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+
+        <p class="tip">*Custom font English paragraph 2:</p>
+        <p class="custom-font2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste temporibus natus totam, aspernatur repudiandae esse ab modi.
+        </p>
+
+        <p class="tip">*Custom font Arabic paragraph 1:</p>
+        <p class="custom-font-ar">
+            خسائر اللازمة ومطالبة حدة بل. الآخر الحلفاء أن غزو, إجلاء وتنامت عدد مع. لقهر معركة لبلجيكا، بـ انه, ربع الأثنان المقيتة في, اقتصّت المحور حدة و. هذه ما طرفاً عالمية استسلام, الصين وتنامت حين ٣٠, ونتج والحزب المذابح كل جوي. أسر كارثة المشتّتون بل, وبعض وبداية الصفحة غزو قد, أي بحث تعداد الجنوب.
+            قصف المسرح واستمر الإتحاد في, ذات أسيا للغزو، الخطّة و, الآخر لألمانيا جهة بل. في سحقت هيروشيما البريطاني يتم.
+        </p>
+
+        <p class="tip">*Custom font Arabic paragraph 2:</p>
+        <p class="custom-font-ar2">
+            , غريمه باحتلال الأيديولوجية، في فصل, دحر وقرى لهيمنة الإيطالية ٣٠. استبدال استسلام القاذفات عل مما. ببعض مئات وبلجيكا، قد أما, قِبل الدنمارك حتى كل, العمليات اليابانية انه أن.
+            حتى هاربر موسكو ثم, وتقهقر المنتصرة حدة عل, التي فهرست واشتدّت أن أسر. كانت المتاخمة التغييرات أم وفي. ان وانتهاءً باستحداث قهر. ان ضمنها للأراضي الأوروبية ذات
+        </p>
+    </div>
+
+
+    <hr>
+
+    <!-- Question 3 -->
+    <div class="container">
+        <h1>Question 3: </h1>
+
+        <p class="tip">*Click on the "x" to hide the contact card, and click on the photo to show it again.</p>
+        <div class="nameDiv" id="name">
+            Mohamed
+            <span class="closebtn" id="btn" onclick="hide()">&times;</span>
+        </div>
+        <div class="chip">
+            <img src="./images/img_avatar.png" onclick="view()" id="img" width="96" height="96">
+        </div>
+        
+        <script>
+            function view() {
+                document.getElementById("name").style.visibility = "visible";
+            }
+            function hide() {
+                document.getElementById("name").style.visibility = "hidden";
+            }
+        </script>
+    </div>
+
+    <hr>
+
+    <!-- Question 4 -->
+    <div class="container">
+        <h1>Question 4: </h1>
+        <p style="margin-left: 20%; margin-bottom: 2%;" class="tip">*Click <a href="./Day1-Assignment/index.html" target="_blank" style="color: blue;">HERE</a> to go to Day 1 assignment.</p>
+    </div>
+
+
+    <hr>
+
+    <!-- Question 5 -->
+    <div class="container">
+        <h1>Question 5: </h1>
+        <p class="tip">*Hover on photos to zoom in:</p>
+        <div class="gallery">
+            <img src="./images/1.jpg" class="pic">
+            <img src="./images/2.jpg" class="pic">
+            <img src="./images/3.jpg" class="pic">
+            <img src="./images/4.jpg" class="pic">
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Question 6 -->
+    <div class="container">
+        <h1>Question 6: </h1>
+        <p class="tip" style="margin-bottom: 3%;">*Paragraph columns:</p>
+        <div class="columns custom-font2" style="border: none; margin-left: 0%; margin-bottom: 5%;">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel 
+            eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan
+            et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta
+            nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam;
+            est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+        </div>
+    </div>
+
+    <hr>
+
+  </body>
+</html>

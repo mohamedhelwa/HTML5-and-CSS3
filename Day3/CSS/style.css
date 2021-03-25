@@ -1,0 +1,143 @@
+*{
+    /* height: 100%; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+hr{
+    height: 1px;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    color: black;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+    /* height: 35%; */
+    padding-top: 1%;
+}
+.tip{
+    font-family: sans-serif;
+    color: red;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-bottom: .5%;
+}
+h1{
+    text-decoration: underline;
+}
+nav{
+    margin-top: 1%;
+    width: 50%;
+    /* height: 15%; */
+    margin-left: 20%;
+    border-radius: 7px;
+    background-color: rgb(83, 80, 80);
+    margin-bottom: 1%;
+}
+li{
+    display: inline-block;
+    transition: background-color 0.5s ease;
+    background-color: rgb(83, 80, 80);
+    color: white;
+    width: 19.5%;
+    font-size: 300%;
+    text-align: center;
+    padding: 20px;
+}
+li:hover{
+    background-color: green;
+}
+i {
+    transition: color 0.5s ease;
+}
+
+i:hover {
+    color: black;
+}
+
+a{
+    color: white;
+}
+.custom-font{
+    /* border: 1px solid gray; */
+    margin-left: 5%;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+.custom-font-ar{
+    /* border: 1px solid gray; */
+    margin-left: 5%;
+    font-size: 20px;
+    font-family: 'Kufam', cursive;
+}
+.custom-font2{
+    /* border: 1px solid gray; */
+    margin-left: 5%;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+}
+.custom-font-ar2{
+    /* border: 1px solid gray; */
+    margin-left: 5%;
+    font-size: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+#img {
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 15%;
+}
+
+.nameDiv {
+    display: inline-block;
+    margin-top: -1%;
+    font-size: 16px;
+    width: 160px;
+    padding-left: 35px;
+    background: #f1f1f1;
+    text-align: left;
+    line-height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    left: 15%;
+    top: 50.125px;
+}
+.closebtn {
+    padding-left: 10px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.closebtn:hover {
+    color: #000;
+}
+.pic {
+    width: 250px;
+    height: 250px;
+    transition: all .3s ease-in-out;
+}
+
+.pic:hover {
+    transform: scale(2);
+}
+.gallery {
+    margin-top: 2%;
+    margin-left: 11%;
+    margin-bottom: 2%;
+}
+.columns{
+    column-count: 5;
+    column-rule-style: dotted;
+    column-rule-width: 3px;
+}

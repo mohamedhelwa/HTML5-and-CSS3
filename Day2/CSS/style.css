@@ -1,0 +1,125 @@
+* {
+  /* height: 100%; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+hr {
+  height: 3px;
+  background: black;
+  /* margin-left: 5%; */
+  margin-right: 5%;
+}
+.container {
+  margin-left: 5%;
+}
+h1 {
+  margin-bottom: 2%;
+  text-decoration: underline;
+}
+.human-body {
+  float: left;
+  width: 207px;
+  position: relative;
+  padding-top: 240px;
+  height: 260px;
+  display: block;
+  margin: 40px auto;
+}
+.human-body svg:hover {
+  cursor: pointer;
+}
+.human-body svg:hover path {
+  fill: #ff7d16;
+}
+.human-body svg {
+  position: absolute;
+  left: 50%;
+  fill: #57c9d5;
+}
+.human-body svg.head {
+  margin-left: -28.5px;
+  top: -6px;
+}
+.human-body svg.shoulder {
+  margin-left: -53.5px;
+  top: 69px;
+}
+.human-body svg.arm {
+  margin-left: -78px;
+  top: 112px;
+}
+.human-body svg.chest {
+  margin-left: -43.5px;
+  top: 88px;
+}
+.human-body svg.stomach {
+  margin-left: -37.5px;
+  top: 130px;
+}
+.human-body svg.legs {
+  margin-left: -46.5px;
+  top: 205px;
+  z-index: 9999;
+}
+.human-body svg.hands {
+  margin-left: -102.5px;
+  top: 224px;
+}
+#area {
+  display: block;
+  width: 100%;
+  clear: both;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Courier New;
+  color: #a5a5a5;
+  margin-bottom: 12%;
+}
+
+#area #data {
+  color: black;
+}
+
+#letterA {
+  width: 300px;
+  height: 300px;
+  background-color: aliceblue;
+  border: 1px solid black;
+  text-align: center;
+  margin-bottom: 2%;
+}
+#divA {
+  float: left;
+  width: 90px;
+  height: 100px;
+  text-align: center;
+  margin-bottom: 1%;
+  border: 1px solid black;
+  background-color: red;
+}
+#divB {
+  float: left;
+  width: 90px;
+  height: 100px;
+  border: 1px solid black;
+  background-color: green;
+  margin-bottom: 1%;
+  text-align: center;
+  margin-left: 1.125%;
+}
+#divC {
+  float: left;
+  width: 90px;
+  height: 100px;
+  border: 1px solid black;
+  background-color: blue;
+  margin-bottom: 1%;
+  text-align: center;
+  margin-left: 1.125%;
+}
+
+h2{
+  margin-top: 40%;
+}
